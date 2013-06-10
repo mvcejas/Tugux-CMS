@@ -1,0 +1,18 @@
+Info About Tugux CMS.
+Tugux CMS is copyright 2011 and it is released under GNU public license. This Whole CMS is programmed and design by Only One Person (Syed Yousaf Ehsan Naqvi)
+The web site of the Tugux CMS is (www.collegetalks.net).
+
+Installation Instruction:
+Its is very easy to install Tugux CMS
+ 1. Download the latest version of the tugux CMS from (www.tugux.com).
+ 2. Extract to the root directory of your site where you want to install Tugux CMS.
+ 3. Create New empty database. for Tugux CMS from PHP myadmin(or what ever application you are using).
+ 4. Open you database admin and enter the database which you have created now. and import the SQL file "tugux_cms.sql" which is located in intallation           folder.
+ 5. Open the file scripts/connect_to_mysql.php and edit the datebase informations to match to your database.
+ 6. Now Open the file administrator/fileed.php and edit the directory direction of your site. and change the permissions to 777 to all the files ehich you want to      edit later on by using file editor.
+ 7. Change the permission of diretory administrator/slides to 777.
+ 8. Default admin username and password is "tugux".
+ 9. you can easily modify the design of frontend by simple html and css. and also change the slider images.. in index.php
+
+thats it here we go... enjoy..!!
+  
