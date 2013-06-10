@@ -4,7 +4,7 @@ The web site of the Tugux CMS is (www.collegetalks.net).
 
 Installation Instruction:
 Its is very easy to install Tugux CMS
- 1. Download the latest version of the tugux CMS from (www.tugux.com).
+ 1. Download the latest version of the tugux CMS from (https://github.com/yousafsyed/Tugux-CMS).
  2. Extract to the root directory of your site where you want to install Tugux CMS.
  3. Create New empty database. for Tugux CMS from PHP myadmin(or what ever application you are using).
  4. Open you database admin and enter the database which you have created now. and import the SQL file "tugux_cms.sql" which is located in intallation           folder.
