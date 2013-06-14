@@ -1,8 +1,6 @@
 <?php 
 session_start();
 require_once "scripts/connect_to_mysql.php";
-session_start();
-require_once "scripts/connect_to_mysql.php";
 
 
 //------------------------------------------------
@@ -13,15 +11,6 @@ while($row = mysqli_fetch_array($query)){
 	}
 mysqli_free_result($query);
 //------------------------------------------------
-
-
-
-$sqlCommand = "SELECT modulebody FROM module WHERE showing='1' AND name='custummodule' LIMIT 1";
-$query = mysqli_query($myConnection, $sqlCommand) or die (mysqli_error());
-while($row = mysqli_fetch_array($query)){
-	$custom1 = $row["modulebody"];
-	}
-mysqli_free_result($query);
 
 
 //------------------------------------------------
